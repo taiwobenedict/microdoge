@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: "Bricolage Grotesque", sans-serif;
+  background: linear-gradient(158.46deg, #bfa4e4 0%, #5a4087 100%);
+  color: #1e2f5b;
+}
+
+img {
+  width: 100%;
+}
+
+.custom-card {
+  color: #1e2f5b;
+  border: solid 3px #000f94;
+  padding: 20px;
+  border-radius: 32px;
+  background: #ece3f0;
+  box-shadow: 0px 0px 16px 0px #0000008f inset;
+}
+
+/* Header */
+header {
+  padding-top: 30px;
+}
+
+.navbar {
+  background: #080f327a;
+  padding: 16px;
+  border-radius: 64px;
+}
+
+.navbar-brand {
+  max-width: 50px;
+  padding: 0;
+}
+
+.nav-link {
+  color: #d8cedc;
+  transition: 0.4s;
+}
+
+.nav-link:hover {
+  color: #d8cedc;
+  opacity: 0.6;
+}
+
+.custom-btn {
+  background-color: #1e2f5b;
+  border-radius: 55px;
+  padding: 5px 15px;
+  width: fit-content;
+  transition: 0.4s;
+}
+
+.custom-btn:hover {
+  background-color: #14203d;
+}
+
+/* Hero */
+#hero {
+  margin: 100px 0;
+}
+
+.hero-content {
+  max-width: 450px;
+}
+
+.hero-img {
+  max-width: 400px;
+}
+
+/* Introducton */
+#intro {
+  margin-bottom: 100px;
+}
+
+.space-img {
+  max-width: 200px;
+}
+
+.sub-intro {
+  margin-top: 100px;
+}
+
+.custom-btn.road {
+  position: relative;
+}
+
+.road-img {
+  position: absolute;
+  max-width: 150px;
+  bottom: -60px;
+}
+
+/* How to buy */
+#how-to-buy {
+  margin-top: 50px;
+  position: relative;
+  max-width: 1260px;
+  margin-inline: auto;
+}
+
+.space-img.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 180px;
+}
+
+/* Footer */
+#footer {
+  margin-block: 50px;
+  color: #ece3f0;
+}
+
+.dash {
+  height: 5px;
+  background-color: #ece3f0;
+  flex: 1;
+}
+
+.footer-text {
+  text-align: center;
+  flex: 1;
+}
+
+.social {
+  font-size: 1.2rem;
+  border: solid #ece3f0 1px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Roadmap Page */
+/* Roadmap */
+#roadmap {
+  margin-block: 70px;
+}
+
+.roadmap-line {
+  margin-top: 3rem;
+  width: 100%;
+  height: 8px;
+  background-color: #1e2f5b;
+  box-shadow: 0px 6px 10px 0px #54545452 inset;
+}
+
+.maps {
+  gap: 20px;
+}
+
+.map {
+  color: #1e2f5b;
+  padding: 1.5rem;
+  border-radius: 10px;
+  position: relative;
+  background: #ece3f0;
+  box-shadow: 0px 0px 16px 0px #0000008f inset;
+  border: solid 1px #000f94;
+}
+
+.map::before {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  content: "";
+  bottom: -68px;
+  left: 40px;
+  border-radius: 50%;
+  background: #ece3f0;
+  box-shadow: 0px 0px 16px 0px #0000008f inset;
+}
+
+.map ul {
+  list-style: disc;
+  padding-left: 1rem;
+}
+
+/* Tokenomics */
+.token-feature {
+  padding-top: 4rem !important;
+  max-width: 550px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.token-feature .content {
+  flex: 2;
+}
+
+.token-feature div {
+  flex: 1.5;
+}
+
+.token-feature .btn {
+  border-radius: 0.5rem !important;
+  min-width: 180.6px !important;
+}
+
+.token-feature .small-img {
+  position: absolute;
+  width: 120px;
+  top: -50px;
+  right: 20%;
+}
+
+.token-img {
+  max-width: 400px;
+}
+
+.circle {
+  width: 32px;
+  height: 32px;
+  box-shadow: 0px 6px 10px 0px #00000052 inset;
+  border-radius: 50%;
+}
+
+
+
+/* Tokenomics */
+#tokenomics {
+    margin-block: 50px;
+    margin-bottom: 100px;
+   
+}
+/* .text-bord {
+  color: var(--pri-color);
+  -webkit-text-stroke-width: 2px;
+  font-weight: 700;
+  -webkit-text-stroke-color: #ece3f0;
+} */
+
+.address {
+  border: #ece3f0 solid 2px;
+  border-radius: 10px;
+  background-color: #1e2f5b;
+  max-width: 800px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  margin-inline: auto;
+  flex-wrap: wrap;
+  color: #ece3f0;
+}
+
+.address h6 {
+    font-size: 1.5rem;
+}
+
+.field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: #ece3f0 solid 2px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: #ece3f0;
+  background-color: #1e2f5b;
+}
+
+@media (max-width: 768px) {
+  .space-img.footer {
+    max-width: 150px;
+  }
+
+  .address h6 {
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 568px) {
+    .address h6 {
+        font-size: .75rem;
+      }
+}
+
+
+@media (max-width: 992px) {
+    .maps {
+      flex-direction: column !important;
+      border-left: 5px solid var(--light-color);
+      padding-left: 2rem;
+    }
+  
+    .map::before {
+      top: 20px;
+      left: -48px;
+      height: 28px;
+      width: 28px;
+    }
+  
+    .roadmap-line {
+      display: none;
+    }
+  }
